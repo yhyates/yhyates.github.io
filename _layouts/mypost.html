@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<script type='text/javascript' src='https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js'></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js"></script>
+{% include head.html -%}
+<body ondragstart="return false;">
+{% include header.html -%}
+<div class="page page-post">
+  <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
+  {% if page.date %}
+  <div class="subtitle">{{page.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
+  {% endif %}
+     <div id="qrcode" style="width:70px; height:70px; padding-bottom:100px; text-align:center; ">扫码阅读</div>
+  <div class="post">
+    {{ content }}
+  </div>
+  {% if site.extAdsense -%}
+  <div class="adsense" style="overflow: hidden;">
+    {% include ext-adsense.html -%}
+  </div>
+  {% endif %}
+</div>
+{% include footer.html -%}
+{% include script.html -%}
+</body>
+
+<script>
+var url;
+url = window.location.href;
+      function utf16to8(str) {
+          var out, i, len, c;
+          out = "";
+          len = str.length;
+          for (i = 0; i < len; i++) {
+              c = str.charCodeAt(i);
+              if ((c >= 0x0001) && (c <= 0x007F)) {
+                  out += str.charAt(i);
+              } else if (c > 0x07FF) {
+                  out += String.fromCharCode(0xE0 | ((c >> 12) & 0x0F));
+                  out += String.fromCharCode(0x80 | ((c >> 6) & 0x3F));
+                  out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+              } else {
+                  out += String.fromCharCode(0xC0 | ((c >> 6) & 0x1F));
+                  out += String.fromCharCode(0x80 | ((c >> 0) & 0x3F));
+              }
+          }
+          return out;
+      }
+   
+          jQuery('#qrcode').qrcode({
+              render: "canvas",//table和canvas 
+              text: utf16to8(url),
+              width: 70,
+              height: 70,
+              background: "#ffffff",
+              foreground: "#000000",
+              correctLevel :1,//纠错等级 
+          });
+</script>
+
+</html>
