@@ -136,9 +136,9 @@ body {
 .header .logo {
   width: 25px;
   height: 25px;
-  float: left;
+
   display:inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   cursor: pointer;
   border-radius: 50%;
   flex-shrink: 0;
@@ -163,7 +163,7 @@ body {
   font-size: 15px;
   display: inline-block;
   margin: 0 25px;
-  padding: 5px 0;
+  padding: 2px 0;
   white-space: nowrap;
   color: #fff;
 }
