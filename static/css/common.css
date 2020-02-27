@@ -167,7 +167,14 @@ body {
   white-space: nowrap;
   color: #fff;
 }
+.upy {
+  width: 59.4px;
+  height: 30.2px;
+  float: center;
+  display:inline-block;
+  vertical-align: middle;
 
+}
 .next {
   padding: 15px 0;
   font-size: 14px;
