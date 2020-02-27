@@ -4,7 +4,7 @@ encoding: utf-8
 title: MESC CLUB
 description: Marine Engineering Study Center
 keywords: study，academic,tools,experience
-footerText: 'Copyright © 2020 MESC.'
+footerText: 'Copyright © 2020 MESC'
 
 paginate: 9
 paginate_path: "page/:num/"
