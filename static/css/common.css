@@ -201,6 +201,7 @@ body {
   white-space: nowrap;
 
 }
+
 #to-top {
   position: fixed;
   z-index: 999;
@@ -268,6 +269,9 @@ body {
   .header {
    padding-top:20px;
    padding-bottom:15px;
+  }
+    .footer {
+    font-size: 12px;
   }
   .header .menu a {
     margin: 0 0px;
