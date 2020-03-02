@@ -25,6 +25,10 @@ title: 关于
 
 - 本站Logo取自[Freepik](https://www.flaticon.com/free-icon/ship_2206162?term=propeller&page=1&position=8) from Flaticon，顶部图片取自[Sea trip](https://dribbble.com/shots/6812628-Sea-trip) by SakuraChen，由Paint 3D处理。
 
+- **本站内容皆为后期资料整理，没有能力也不存在泄露考题的情况**。
+
+- 本站托管于Github Pages，国内搜索引擎基本不收录本站链接，尽最大可能保持轮机圈。
+
 - 使用本站即默认以上内容，若有异议，请停止使用或联系我们。
 
 ## 投稿
@@ -34,7 +38,7 @@ title: 关于
 
 - 投稿即默认同意署名格式 <MESC+作者>，例如：MESC-李华。
 
-- 若您不方便使用Markdown，也可整理直接发送原文。
+- 若您不方便使用Markdown，也可整理**直接发送原文**。
 
 - 请发送至下方联系邮箱。
 
