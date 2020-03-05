@@ -25,7 +25,7 @@ Cytoscape 是一个专注于开源网络可视化和分析的软件，其核心�
 
 ```
 准备数据：
-1.-.xlsx，A1输入Node1，B1输入Node2。自行填充A列和B列数据，Node1（A列）指向Node2（B列）
+1.桌面创建excel表network.xlsx，A1输入Node1，B1输入Node2。自行填充A列和B列数据，Node1（A列）指向Node2（B列）
 2.桌面创建excel表type.xlsx，A1输入Node，B1输入Type。自行填充A列和B列数据，A列是节点名字，B列是类型，方便分类上色和调整形状
 
 导入数据：
@@ -50,6 +50,12 @@ Cytoscape 是一个专注于开源网络可视化和分析的软件，其核心�
 这是我自建数据用Cytoscape为2020年美赛A题所作的EMD+BP预测模式图，你可以下载源数据，并动手实践。
 ```
 **[点击下载数据](https://zhuifengyi.coding.net/p/MESC_doc/d/MESC_doc/git/blob/master/Cytoscape%E5%AE%9E%E8%B7%B5%E6%95%B0%E6%8D%AE.zip)**
+
+
+![endnote](https://i.loli.net/2020/03/05/gcmoA3wvij6BKF4.png)
+```
+生物信息学中由Cytoscape作出的普通PPI网络图，尚未发表，仅显示部分
+```
 
 ---
 
