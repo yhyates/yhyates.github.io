@@ -7,7 +7,7 @@ categories: [工具]
 > 介绍
 
 Cytoscape 是一个专注于开源网络可视化和分析的软件，其核心是提供基础的功能布局和查询网络，并依据基本的数据结合成可视化网络。多用于生物信息学领域，但其强大的作图能力值得我们了解。
-![endnote](https://ask.qcloudimg.com/http-save/developer-news/pckkg4lskv.jpeg?imageView2/2/w/1620)
+![endnote](https://i.loli.net/2020/03/05/lhCB1L8Q6axbJjr.png)
 
 >下载
 
