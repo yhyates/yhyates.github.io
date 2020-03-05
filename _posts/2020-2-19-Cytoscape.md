@@ -49,7 +49,7 @@ Cytoscape 是一个专注于开源网络可视化和分析的软件，其核心�
 ```
 这是我自建数据用Cytoscape为2020年美赛A题所作的EMD+BP预测模式图，你可以下载源数据，并动手实践。
 ```
-**[点击下载数据](https://www.jianshu.com/p/aa92510d4f5e)**
+**[点击下载数据](https://zhuifengyi.coding.net/p/MESC_doc/d/MESC_doc/git/blob/master/Cytoscape%E5%AE%9E%E8%B7%B5%E6%95%B0%E6%8D%AE.zip)**
 
 ---
 
