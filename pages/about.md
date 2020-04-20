@@ -9,7 +9,7 @@ title: 关于
  MESC.club建立于2019年12月，采用 [CC BY-NC-SA 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/3.0/deed.zh)协议进行许可，分享本站内容请务必署名作者，格式：MESC+作者。在这里你可以分享学业，学术，工具，经验等资源，移升宝殿从新诏，盛典永流传！
 
 
-## 中心主任
+## 中心成员
 
 - 主 任： 杨恒一 17级轮机工程（海上方向）
 
